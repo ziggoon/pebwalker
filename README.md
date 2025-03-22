@@ -2,7 +2,8 @@
 > a simple proof of concept to learn about reducing IoCs in PE files
 
 ## Build & Run
-`zig build-exe main.zig -target x86_64-windows -Drelease-small -fsingle-threaded -fstrip -fPIC`
+`zig build-exe main.zig -target x86_64-windows -Drelease-small -fsingle-threaded -fstrip -fPIC` \
+
 ![execution](./images/exec.png)
 
 ## Details
